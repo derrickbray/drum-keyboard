@@ -23,8 +23,19 @@
   flex-direction: column;
   margin: 1.5rem;
   padding: 1rem;
-  border: 4px solid black;
+  border: 2px solid black;
   border-radius: 0.2rem;
   background: white;
   text-align: center;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: red;
+  box-shadow: 0 0 10px red;
+}
+
+.sound {
+  font-size: 1.2rem;
+  color: red;
 }
