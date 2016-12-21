@@ -11,6 +11,16 @@
   justify-content: center;
   height: 100vh;
   background: grey;
+
+  &__title {
+    text-align: center;
+  }
+}
+
+.group {
+  &__title {
+    text-align: center;
+  }
 }
 
 .keys {
